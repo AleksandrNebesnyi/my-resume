@@ -3,12 +3,6 @@ body {
   background-color: #e5e5e5;
 }
 
-about-me-profession {
-  font-size: 14px;
-  font-weight: 700;
-  color: #000;
-}
-
 .main-container {
   display: flex;
   flex-direction: row-reverse;
@@ -44,7 +38,7 @@ about-me-profession {
 .about-me-profession {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 24px;
   line-height: 24px;
   color: #000;
   margin: 0 0 20 0;
@@ -108,7 +102,6 @@ about-me-profession {
 /* my work experience */
 
 .my-work-experience-section {
-
   margin: 0 0 45px 0;
 }
 
