@@ -10,6 +10,8 @@ body {
   background: #fff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  /* width: 210px;
+  height: 297px; */
 }
 
 .main-container-section {
@@ -52,20 +54,23 @@ body {
   margin: 0 0 25 0;
 }
 .about-me-description {
-  width: 400px;
+  /* width: 400px; */
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+  margin: 0;
 }
 
 /* My project section */
 
 .my-prodject-section {
-  margin: 0 0 50px 0;
+  margin: 0 0 40px 0;
 }
-
+.main-container-title {
+  margin: 0 0 20px 0;
+}
 .my-project-list {
   padding: 0 0 0 17px;
 }
@@ -102,9 +107,11 @@ body {
 /* my work experience */
 
 .my-work-experience-section {
-  margin: 0 0 45px 0;
+  margin: 0 0 40px 0;
 }
-
+.main-container-title {
+  margin: 0 0 20px 0;
+}
 .my-work-experience-position {
   font-style: normal;
   font-weight: bold;
@@ -119,7 +126,8 @@ body {
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
-  margin: 0 0 10px 0;
+  margin: 0;
+  margin-bottom: 5px;
 }
 
 .my-work-experience-divider {
@@ -127,6 +135,8 @@ body {
 }
 .my-work-experience-dyties {
   padding: 0 0 0 18px;
+  margin: 0;
+  margin-bottom: 10px;
 }
 .my-work-expireence-duty {
   font-style: normal;
@@ -134,6 +144,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+  margin: 0;
 }
 .my-work-experience-company-3 {
   margin: 0 15px 0 0;
@@ -156,16 +167,18 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #fb6d3a;
+  margin: 0;
+  margin-bottom: 5px;
 }
 .my-education-profession {
   margin: 0;
-  padding: 12px 0 5px 0;
+  /* padding: 12px 0 5px 0; */
 }
 
 .my-work-experience-time {
   margin: 0;
   color: #000;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 /* Sidebar section */
 .sidebar-section {
@@ -176,11 +189,13 @@ body {
 
 .contacts-section,
 .tech-skills-section,
-.soft-skll-section {
+.soft-skll-section,
+.contact-information {
   margin: 50px 0 0 40px;
 }
 
 .sidebar-title {
+  margin: 0;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
@@ -191,6 +206,7 @@ body {
 /* Contact section */
 
 .contact-section-type {
+  margin: 0;
   font-style: normal;
   /* font-weight: bold; */
   font-size: 14px;
@@ -287,40 +303,40 @@ body {
   color: #fb6d3a;
   margin: 10px 0 10px 0;
 }
-.my_work_title {
+/* .my_work_title {
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
   margin: 15px 0 10px 0;
   color: #000000;
-}
-.my_work_section {
+} */
+/* .my_work_section {
   margin: 20px 0px;
-}
-.my_education_section {
+} */
+/* .my_education_section {
   margin: 20px 0px;
   color: rgb(12, 12, 12);
-}
-.my_work_date {
+} */
+/* .my_work_date {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
   color: #2e2d2d;
   margin: 0 0 10px 0;
-}
-.bracket_2 {
+} */
+/* .bracket_2 {
   color: #000000;
-}
-.my_work_duties {
+} */
+/* .my_work_duties {
   padding: 0 0 0 18px;
   margin: 10px 0 0 0;
-}
-.my_work_duty {
+} */
+/* .my_work_duty {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #2e2d2d;
-}
+} */
