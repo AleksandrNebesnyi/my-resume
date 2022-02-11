@@ -82,7 +82,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959
+  color: #595959;
 }
 
 .my-prodject-link {
@@ -98,7 +98,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959
+  color: #595959;
   margin-left: 5px;
 }
 .my-prodject-brecket {
@@ -142,7 +142,6 @@ body {
   padding: 0 0 0 18px;
   margin: 0;
   /* margin-bottom: 10px; */
- 
 }
 /* .my-work-experience-dyties:nth-child(2){
 
@@ -302,13 +301,12 @@ body {
   color: #000000;
 }
 
-.prodject-text{
+.prodject-text {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  
 }
 .projects_list {
   padding: 0 0 0 18px;
