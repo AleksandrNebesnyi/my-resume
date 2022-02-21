@@ -2,6 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   /* background-color: #e5e5e5; */
   background-color: #fff;
+  margin: 0;
 }
 
 .main-container {
@@ -13,7 +14,7 @@ body {
   max-width: 1200px;
   background: #fff;
   margin: 40px auto;
-  /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 .main-container-section {
@@ -73,26 +74,30 @@ body {
 .main-container-title {
   margin: 0 0 20px 0;
 }
-.my-project-list {
-  padding: 0 0 0 17px;
-}
 
-.my-prodject-item {
-  color: #000;
+.project-color-title-orange {
+  font-style: normal;
   font-weight: bold;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin: 10px 0 10px 0;
 }
-
-.my-prodject-link {
+/* 
+.projects_link {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #2e2d2d;
+} */
+.my-prodject-item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin: 0 0 10px 0;
 }
 
 .my-prodject-text {
@@ -101,14 +106,35 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-  margin-left: 5px;
 }
+
 .my-prodject-brecket {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
   color: #000;
+}
+
+.my-prodject-code-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2e2d2d;
+  margin: 0 0 10px 0;
+}
+
+.my-prodject-work-list {
+  padding: 0 0 0 18px;
+  margin: 10px 0 0 0;
+}
+.my-prodject-work-item {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2e2d2d;
 }
 
 /* my work experience */
@@ -271,91 +297,4 @@ body {
   color: #fff;
 }
 
-/*my projects section 1111111 */
-
-.my_projects_section {
-  margin: 20px 0px 10px 0px;
-}
-.projects_item {
-  color: #000000;
-  font-weight: bold;
-}
-.projects_text {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #2e2d2d;
-  margin-left: 5px;
-}
-.projects_link {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #2e2d2d;
-}
-.projects_bracket {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  color: #000000;
-}
-
-.prodject-text {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
-}
-.projects_list {
-  padding: 0 0 0 18px;
-}
 /* my work expirence */
-.project_color_orange {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  color: #fb6d3a;
-  margin: 10px 0 10px 0;
-}
-/* .my_work_title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  margin: 15px 0 10px 0;
-  color: #000000;
-} */
-/* .my_work_section {
-  margin: 20px 0px;
-} */
-/* .my_education_section {
-  margin: 20px 0px;
-  color: rgb(12, 12, 12);
-} */
-/* .my_work_date {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 12px;
-  line-height: 15px;
-  color: #2e2d2d;
-  margin: 0 0 10px 0;
-} */
-/* .bracket_2 {
-  color: #000000;
-} */
-.my_work_duties {
-  padding: 0 0 0 18px;
-  margin: 10px 0 0 0;
-}
-.my_work_duty {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #2e2d2d;
-}
