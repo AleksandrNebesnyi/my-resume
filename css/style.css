@@ -11,11 +11,11 @@ body {
   flex-direction: row-reverse;
   max-width: 1200px;
   background: #fff;
-  margin: 40px auto;
+  /* margin: 40px auto; */
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 
-  width: 1120px;
-  height: 1400px;
+  /* width: 1120px;
+  height: 1400px; */
 }
 
 .main-container-section {
