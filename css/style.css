@@ -11,7 +11,7 @@ body {
   flex-direction: row-reverse;
   max-width: 1200px;
   background: #fff;
-  margin: 0 auto;
+/*   margin: 0 auto; */
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 
   /* width: 1120px;
