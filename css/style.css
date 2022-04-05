@@ -3,7 +3,6 @@ body {
   /* background-color: #e5e5e5; */
   background-color: #fff;
   margin: 0;
-  /* height: 100vh; */
 }
 
 .main-container {
@@ -11,9 +10,10 @@ body {
   flex-direction: row-reverse;
   max-width: 1200px;
   background: #fff;
-  margin: 40px auto;
+  /* margin: 40px auto; */
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  height: 100vh;
+  /* height: 100vh; */
+  width: 100vw;
 
   /* width: 1120px;
   height: 1400px; */
@@ -59,7 +59,7 @@ body {
   margin: 0 0 25 0;
 }
 .about-me-description {
-  /* width: 400px; */
+  /* width: 500px; */
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -228,9 +228,12 @@ body {
 
 .contacts-section,
 .tech-skills-section,
-.soft-skll-section,
-.contact-information {
+.soft-skll-section {
   margin: 50px 0 0 40px;
+}
+
+.contact-information {
+  margin: 17px 0 0 40px;
 }
 
 .sidebar-title {
