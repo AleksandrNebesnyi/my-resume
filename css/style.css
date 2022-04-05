@@ -5,17 +5,18 @@ body {
 }
 
 .main-container {
-  width: 1200px;
+  min-width: 1080px;
   background: #fff;
 
   /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
 
   display: flex;
   flex-direction: row-reverse;
-  width: 1120px;
+  /* width: 1120px; */
   /* background-color: white; */
-  margin: 40px auto;
-  height: 1319px;
+  /* margin: 40px auto; */
+  height: 1400px;
+  width: 100vw;
 }
 
 .main-container-section {
@@ -223,7 +224,7 @@ body {
   background: #1e2939;
   width: 370px;
   padding: 40px;
-  height: 1450px;
+  height: 1460px;
 }
 
 .contacts-section,
