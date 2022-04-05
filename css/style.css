@@ -1,22 +1,21 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  /* background-color: #e5e5e5; */
   background-color: #fff;
   margin: 0;
 }
 
 .main-container {
+  width: 1200px;
+  background: #fff;
+
+  /* box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
+
   display: flex;
   flex-direction: row-reverse;
-  max-width: 1200px;
-  background: #fff;
-  /* margin: 40px auto; */
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  /* height: 100vh; */
-  width: 100vw;
-
-  /* width: 1120px;
-  height: 1400px; */
+  width: 1120px;
+  /* background-color: white; */
+  margin: 40px auto;
+  height: 1319px;
 }
 
 .main-container-section {
