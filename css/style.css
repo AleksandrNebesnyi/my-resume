@@ -11,7 +11,11 @@ body {
   flex-direction: row-reverse;
   max-width: 1200px;
   background: #fff;
+<<<<<<< Updated upstream
 /*   margin: 0 auto; */
+=======
+  /* margin: 40px auto; */
+>>>>>>> Stashed changes
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 
   /* width: 1120px;
